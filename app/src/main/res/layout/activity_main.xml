@@ -36,11 +36,21 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <Button
+            android:id="@+id/buttonAnswer0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="personChosen"
+            android:tag="0"
+            android:text="Button" />
+
+        <Button
             android:id="@+id/buttonAnswer1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:tag="0"
+            android:onClick="personChosen"
+            android:tag="1"
             android:text="Button" />
 
         <Button
@@ -48,7 +58,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:tag="1"
+            android:onClick="personChosen"
+            android:tag="2"
             android:text="Button" />
 
         <Button
@@ -56,14 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:tag="2"
-            android:text="Button" />
-
-        <Button
-            android:id="@+id/buttonAnswer4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:onClick="personChosen"
             android:tag="3"
             android:text="Button" />
     </LinearLayout>
